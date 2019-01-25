@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+# Function : makeVector
+# Purpose : Caching the inverse of a matrix
 
-## Write a short comment describing this function
 
 makeVector <- function(x = numeric()) {
         MN <- NULL
@@ -18,7 +17,8 @@ makeVector <- function(x = numeric()) {
 }
 
 
-
+# Function : cachemean
+# Purpose: perfomed the inverse o of "matrix" returned by makeVector()
 
 cachemean <- function(x, ...) {
         MN <- x$getmean()
